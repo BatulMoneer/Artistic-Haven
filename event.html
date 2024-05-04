@@ -1,0 +1,163 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>
+			Events
+		</title>
+		 <link rel="icon" type="image/png" href="https://lilvillage.com/images/icons/art.png"/>
+		<link rel="stylesheet" type="text/css" href="all.css">
+		<style>
+			body{
+				background-image: none;
+				background-color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<body>
+		<header>
+			<h2> Artistic HAVEN</h2>
+		<img class="logo" src="https://cdn-icons-png.flaticon.com/512/603/603737.png" height="30px">
+		
+			<a href="home.html">
+			<p class="sections"> Home</p>
+		</a>
+		<a href="supplies.html">
+			<p class="sections"> Supplies</p>
+		</a>
+		<a href="styles.html">
+			<p class="sections"> Styles</p>
+		</a>
+		<a href="event.html">
+			<p class="sections"> Events</p>
+		</a>
+		<a href="galleries.html">
+			<p class="sections"> Galleries</p>
+		</a>
+        <a href="artists.html">
+			<p class="sections"> Artists</p>
+        </a>
+		<a href="history.html">
+			<p class="sections"> History</p>
+		</a>
+		<a href="contact.html">
+			<p class="sections"> Contact</p>
+		</a>
+		</header>
+	</body>
+
+
+	<div>
+		<h1>Events</h1>
+		<p class="textForEvents">Browse a curated selection of events from around the world.</p>
+	</div>
+	
+	<div class="tableEvent">
+		<table>
+			<tr>
+				<td>
+					<img class="imgEvent" src="https://rca-media2.rca.ac.uk/images/RCA-7-19-1113-A4.2e16d0ba.fill-1200x1200.jpg" alt="img">
+				</td>
+				<td class="dataTable">
+					<p>
+						Bonner David Galleries<br>
+						I’m Still Not Finished With Today<br>
+						Jun 1–30, 2023<br>
+						New York
+					</p>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<img class="imgEvent" src="https://i.pinimg.com/originals/cd/da/5d/cdda5d4aec9885d9681843ebbb83a3cb.png" alt="img">
+				</td>
+				<td class="dataTable">
+					<p>
+						Washburn Gallery<br>
+						Christopher Benson: Recent Paintings<br>
+						Jun 1–Jul 28, 2023<br>
+						New York
+					</p>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<img class="imgEvent" src="https://media.newyorker.com/photos/643726be39ef0dccb188be04//w_640,h_490,c_limit/230424_r42224.jpg" alt="img">
+				</td>
+				<td class="dataTable">
+					<p>
+						Robin Rile Fine Art<br>
+						Artistic Anarchy: A Showcase of Edgy British Creativity<br>
+						Jun 5–Jul 30, 2023<br>
+						Miami
+					</p>
+				</td>	
+			</tr>
+
+			<tr>
+				<td>
+					<img class="imgEvent" src="https://d26jxt5097u8sr.cloudfront.net/s3fs-public/2023-05/Niki-Hastings-McFall_gallery-view_1.jpg" alt="img">
+				</td>
+				<td class="dataTable">
+					<p>
+						Artplex Gallery<br>
+						SIGNIFICANT FORM<br>
+						Jul 15, 2023<br>
+						Los Angeles
+					</p>
+				</td>	
+			</tr>
+		</table>
+	</div>
+
+	<hr>
+
+	<div class="eventRegist">
+		<p> To secure your spot for the upcoming art event, please fill out the registration form provided on the event's website.</p>
+	</div>
+
+	<div class="formEvent">
+		<div class="left">
+    		<h2 class="Book-heading">Book an Appointment</h2>
+  			</div>
+			<form method="post" id="f" class="myForm"  enctype="multipart/form-data"  >
+				<fieldset>
+					<label class="formLabel" for="major">Event:</label>
+            		<select class="inputFields" id="major" name="major">
+
+                		<option value="Bonner David Galleries">Bonner David Galleries</option>
+                		<option value="Washburn Gallery">Washburn Gallery</option>
+                		<option value="Robin Rile Fine Art">Robin Rile Fine Art</optio>
+                		<option value="Artplex Gallery">Artplex Gallery</option>
+           			</select>
+           			<br>
+
+					<label class="formLabel" for="Name"> Name: </label>
+					<input class="inputFields" type="text" name="Name" id="Name" required>
+					<br>
+
+					<label class="formLabel" for="email" class="textareaLabel">Email:</label>
+					<input class="inputFields" type="email" id="email" name="email" required>
+					<br>
+
+					<label class="formLabel" for= "phone" class="uploadField">Phone:</label>
+					<input class="inputFields" type="tel" id="phone" name="phone" required>
+					<br>
+
+					<label class="formLabel" for="event-time">Event Date:</label>
+  					<input class="inputFields" type="date" id="event-time" name="event-time" required>
+					<br>
+
+					
+					<button class="buttonEvent" type="submit" id ="select-button" onclick="functionAlert()" onmouseover="changeButtonText()"> Click </button>
+
+				</fieldset>
+			</form>
+	</div>
+
+	
+<script type="text/javascript" src="message.js"></script>
+</body>	
+</html>

@@ -1,0 +1,770 @@
+
+header{
+	text-color: green;
+	text-align : center;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #D9DADB;
+	 position: sticky;
+	top: 0;
+	left: 350px;
+	background-color: white;
+z-index: 10;
+}
+
+h2{
+   	font: 35px Georgia Pro Cond Semibold;
+    color: #615D66;
+	line-height: 0px;
+	display:inline;
+	position: fixed;
+	left:20px;
+	top:7px;
+}
+.sections{
+	color: #8DA5C1;
+	font: 16px Georgia Pro Cond Semibold;
+	display:inline;
+	padding: 30px;
+	line-height: 50px;
+	
+}
+.sections:hover{
+  	font-size: 18px;
+}
+
+.logo{
+	
+	position: fixed;
+	left:260px;
+	top:20px;
+}
+aside{
+	color: #615D66;
+	vertical-align: top;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding-left:20px;
+	padding-right:20px;
+	text-align : center;
+	height:550px;
+	width: 250px;
+	/*border: 2px solid #D9DADB;*/
+	display:inline-block;
+	position: fixed;
+	top: 140px;
+}
+.years{
+	color: #615D66;
+	border: 1px solid rgba(229, 207, 156, .5);
+	line-height: 40px;
+	/*background-color: white;*/
+	padding-top: 10px;
+ 	padding-bottom: 12px;
+	padding-right: 30px;
+	margin-right: 30px;
+}
+.years:hover{
+	color: white;
+	background-color: #E5CF9C;
+  	/*font-size: 18px;*/
+}
+/*
+section{
+	justify-content: top;
+	display:inline-block;
+}
+*/
+section{
+	 z-index:1;
+	margin: 100px auto;
+	position: relative;
+	left:300px;
+	top:100px;
+	justify-content: top;
+	display:inline-block;
+	/*float: right;*/
+	margin-top:20px;
+	padding-top: 10px;
+	text-align : top;
+	height: 100%;
+	width: 1100px;
+	background-color: white;
+	/*border: 2px solid #D9DADB;*/
+}
+.parts{
+	/*border: 2px solid #D9DADB;*/
+	vertical-align: top;
+	
+	display:inline-block;
+	padding: 18px;
+}
+a:link { text-decoration: none; 
+	transition: transform .5s;
+}
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+.images{
+	transition: transform .2s;
+	padding: 5px;
+}
+
+.images:hover {
+ 	cursor: pointer;
+  	transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.images2{
+	transition: transform .2s;
+	padding: 10px;
+}
+
+.images2:hover {
+ 	cursor: pointer;
+  	transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+h3{
+	font: 35px Georgia Pro Cond Semibold;
+	color: #EACA70;
+	text-align : center;
+}
+article{
+	padding-left:270px;
+	padding-right:270px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align : justify;
+	font: 18px Georgia Pro Cond light;
+    	color: #615D66;
+	
+}
+
+
+
+
+.allForm {
+  background: white;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  color: grey;
+  
+}
+
+.left {
+
+	text-align: center;
+  width: 45%;
+  background: none;
+  padding: 30px 0;
+  border-right: 2px solid whitesmoke;
+}
+
+.myForm {
+  width: 70%;
+  padding: 30px ;
+  background: none;
+  align-self: center;
+  text-align: center;
+  color: grey;
+  border: none;
+  outline: none;
+}
+
+fieldset {
+    border: 0;
+}
+
+.inputField {
+  margin: 15px 0;
+  font-size: 16px;
+  padding: 10px;
+  width: 250px;
+   border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  /*background: #EAE3DC;*/
+  color: grey;
+  outline: none;
+}
+
+.formLabel{
+	position: relative;
+	text-align: left;
+  top: 0px;
+  right:50px
+}
+
+.textareaLabel{
+
+	position:relative; 
+	text-align: left;
+	bottom: 100px;
+	right:50px
+}
+.uploadField{
+	position:relative; 
+	text-align: left;
+	right:120px
+}
+#Trans{
+	border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+	position:relative; 
+	text-align: left;
+	left:50px
+}
+.eyeImage{
+	position:relative; 
+	text-align: left;
+	top:50px
+}
+
+.button-55 {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.artist{
+	font: 30px Georgia Pro Cond Semibold;
+	text-align: center;
+	color: #EACA70;
+}
+.artistPhoto{
+	padding-left:630px ;
+	opacity: 0.6;
+}
+
+.bio{
+	padding-left:270px;
+	padding-right:270px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align : justify;
+	font: 18px Georgia Pro Cond light;
+    color: #615D66;
+}
+.paintings:hover{
+	opacity:0.7 ;
+}
+.paintings{
+	padding: 10px;
+}
+.paintingsTable{
+	background-color: #EACA70;
+	margin-left: 240px;
+	margin-bottom: 100px;
+	text-align : justify;
+	font: 18px Georgia Pro Cond light;
+    color: #615D66;
+}
+.pinfo{
+	text-align: center;
+}
+.searchBar{
+	margin-top:50px;
+	width:290px;
+	max-width:400px;
+	background-color:rgba(245,203,39,0.2);
+	display:flex;
+	align-items:center ;
+	border-radius: 30px;
+	padding:8px;
+}
+.searchBar input{
+	background:transparent;
+	flex:1;
+	border: 0;
+	outline:none ;
+	padding:24px 35px;
+	font-size: 12px;
+	color:#615D66;
+}
+
+
+/*gallery */
+
+.imgAndtitle {
+  position: relative;
+  height: 900px; /* Set the desired height of the image */
+  width: 1250px;
+    background: url(https://media.blogto.com/articles/20212812-LocalGallery-20.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70) no-repeat center center;
+    background-size: cover;
+    margin: auto;
+  }
+
+.image_title {
+  text-indent: none;  
+  position: absolute;
+  bottom: 0; /* Position the title at the bottom */
+  left: 50px; /* Position the title to the left */
+  padding: 10px;
+  font-size: 25px;
+  font-weight: normal;
+  color: white;  
+}
+
+.bio-galleries {
+  text-indent: none;  
+  padding-left: 80px;  
+  padding-top: 100px;  
+  padding-right: 100px;
+  padding-bottom: 100px;
+  font-size: 19px;
+  font-weight: normal;
+  text-align: justify;
+
+}
+
+table{
+  margin: auto;
+    border-collapse: collapse;
+    position:relative;
+    left:10px;
+  top:7px;
+    display: inline-block;
+}
+.tableGallery{
+  width: 80%;
+   margin: auto;
+}
+.imgGalleries{
+  width: 500px;
+  height: 300px;
+  margin: auto;
+} 
+
+td {
+  padding: 10px;
+  border: 0px solid #ccc;
+}
+
+.ccccc{
+	text-align: center;
+  color: white;
+}
+
+.SOHO{
+	position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.titlePartner{
+  font: 30px Georgia Pro Cond Semibold;
+  padding-top: 50px;
+  text-align : center;
+  padding-bottom: 80px;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.partnerGallery{
+  font: 20px Georgia Pro Cond Semibold;
+  text-align : left;
+  padding-bottom: 80px;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-top: 0px;
+}
+
+hr {
+  width: 100%;
+  margin: auto;
+}
+
+/* event */
+
+h1{
+  font: 35px Georgia Pro Cond Semibold;
+  color: #EACA70;
+  text-align : center;
+}
+
+.textForEvents{
+  font: 20px Georgia Pro Cond Semibold;
+  text-align : center;
+  padding-bottom: 50px;
+
+}
+
+.imgEvent{
+	width: 450px;
+	height: 450px;
+	padding: 10px;
+  border-width: 3px; 
+  border-color: #EACA70;
+  border-style: solid;
+  margin-top: 20px;
+  cursor: pointer;
+  float: center;
+}
+
+.tableEvent{
+	width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.dataTable{
+	font: 20px Georgia Pro Cond Semibold;
+  text-align : left;
+}
+
+.eventRegist{
+	font: 30px Georgia Pro Cond Semibold;
+  padding-top: 50px;
+  text-align : center;
+  padding-bottom: 80px;
+  padding-right: 80px;
+  padding-left: 80px;
+
+}
+
+.formEvent {
+  background-repeat: no-repeat;
+  position: relative;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  color: grey;
+}
+
+.left {
+	text-align: center;
+  width: 45%;
+  background: none;
+  padding: 30px 0;
+  border-right: 2px solid whitesmoke;
+}
+
+.myForm {
+  width: 70%;
+  padding: 30px ;
+  background: none;
+  align-self: center;
+  text-align: center;
+  color: Black;
+  border: none;
+  outline: none;
+}
+
+
+.inputFields{
+  margin: 15px 0;
+  font-size: 16px;
+  padding: 10px;
+  width: 250px;
+  border-style: groove;
+ 	border-color: purple;
+ 	border-width: 5px;
+  color: grey;
+  
+border-bottom-left-radius: 15px 255px;
+border-bottom-right-radius: 225px 15px;
+border-top-left-radius: 255px 15px;
+border-top-right-radius: 15px 225px;
+}
+
+.formLabel{
+	position: relative;
+	text-align: left;
+  top: 0px;
+  right:50px
+}
+
+.Book-heading{
+	position: relative;
+	text-align: center;
+
+}
+
+.buttonEvent{
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  border-style: groove;
+ 	border-color: purple;
+ 	border-width: 5px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+border-bottom-left-radius: 15px 255px;
+border-bottom-right-radius: 225px 15px;
+border-top-left-radius: 255px 15px;
+border-top-right-radius: 15px 225px;
+  user-select: none;
+}
+
+.buttonEvent:hover{
+	background-color: #EAC2E1;
+	}
+.artist{
+	font: 30px Georgia Pro Cond Semibold;
+	text-align: center;
+	color: #EACA70;
+}
+.artistPhoto{
+	padding-left:630px ;
+	opacity: 0.6;
+}
+
+.bio{
+	padding-left:270px;
+	padding-right:270px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align : justify;
+	font: 18px Georgia Pro Cond light;
+ color: #615D66;
+}
+.paintings:hover{
+	opacity:0.7 ;
+}
+.paintings{
+	padding: 10px;
+}
+.paintingsTable{
+	background-color: #EACA70;
+	margin-left: 240px;
+	margin-bottom: 100px;
+	text-align : justify;
+	font: 18px Georgia Pro Cond light;
+  color: #615D66;
+}
+.pinfo{
+	text-align: center;
+}
+.rate{
+	margin-left: 500px;
+	margin-bottom: 20px;
+	text-align : justify;
+	font: 18px Georgia Pro Cond light;
+  color: #615D66;
+}
+.rateButton{
+	margin-left: 500px;
+	background-color: rgba(245,203,39,0.33);
+	font: 30px Georgia Pro Cond Semibold;
+	text-align: center;
+	color:#615D66;
+	border-radius: 60px ;
+	border:0;
+}
+.rateButton:hover{
+	transform: scale(1.2);
+}
+
+.home{
+	position: fixed;
+	display: inline;
+	top: 300px;
+	margin-left: 700px;
+	text-align : center;
+	font: 60px Georgia Pro Cond Semibold;
+  color: #615D66;
+}
+
+.logoHome{
+	position: fixed;
+	right:280px;
+	top:340px;
+}
+.tap:link, .tap:visited {
+  background-color: #615D66;
+  color: white;
+  padding: 20px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.tap:hover, .tap:active {
+  background-color: rgba(81,78,45,0.18);
+}
+.tap{
+	margin:50px;
+}
+
+
+.submit-button {
+  background-image: url("https://img.freepik.com/free-vector/illustration-paint-colour_53876-5925.jpg?size=626&ext=jpg"); /* Set image as background */
+  color: black;
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  border: solid ; 
+  width: 100px; 
+  height: 50px; 
+  border-radius: 20px;
+  cursor: pointer; 
+}
+
+.submit-button:hover {
+  color: green; 
+  transform: scale(1.1);
+}
+  
+
+  .paragraph{
+    font-weight: bold;
+    color:#615D66;
+    font-size:30px ;
+
+  }
+   .design{
+                    width: 70%;
+   margin: 50px auto;
+   text-align: center;
+            }
+
+  .AForm {
+   background-color: #f7fbfe;
+   padding: 20px;
+   margin: 0 auto;
+   max-width: 600px;
+   border-radius: 20px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+
+  .ALabel {
+   display: block;
+   margin-bottom: 10px;
+   font-weight: bold;
+  }
+
+  .AInput {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-bottom: 20px;
+   font-size: 16px;
+  }
+
+.page{
+   	width: 70%;
+   margin: 50px auto;
+   text-align: center;
+}
+  .Atable {
+   width: 600px;
+   border-collapse: collapse;
+   padding: 50px;
+  }
+
+  .Ath, .Atd {
+  	width: 300px;
+   padding: 5px;
+   border: 1px solid #ccc;
+  }
+
+  .Ath {
+   background-color: #E5CF9C;
+   font-weight: bold;
+   color:white;
+  }
+
+  .Ah1{
+
+  	color :#615D66;
+  }
+
+.div_styling{
+ 
+    	margin-bottom: 110px;
+    	 background-color: #f5f5f5;
+
+
+      }
+
+    .Supplies_images {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding :20px
+
+    }
+    .Supplies_images img {
+      width: 350px;
+      height: 350px;
+      vertical-align: top;
+	display:inline-block;
+	padding: 18px;
+
+    }
+
+
+    .Paragraph_style{
+    	font-size: 25px;
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    padding: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    vertical-align: top;
+	display:inline-block;
+	color:#615D66 ;
+	background-color: #E5CF9C;
+  }
